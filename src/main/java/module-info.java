@@ -6,6 +6,7 @@ module com.nsjg.javafx_lab05 {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     opens com.nsjg.javafx_lab05 to javafx.fxml;
     exports com.nsjg.javafx_lab05;
